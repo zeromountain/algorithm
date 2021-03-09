@@ -7,7 +7,7 @@ const swap = function (idx1, idx2, arr) {
   [arr[idx1], arr[idx2]] = [arr[idx2], arr[idx1]];
 };
 
-const bubblSort = function (arr) {
+const bubbleSort = function (arr) {
   let length = arr.length;
   let i = 0;
 
